@@ -1,18 +1,23 @@
 #include<iostream>
+
 using namespace std;
 
-int main(){
- system("Color 57");
-cout<< "                    $  $  $         " << endl;
-cout << "                $           $       " <<endl;
-cout << "              $              $     " <<endl;
-cout << "            $             $       " <<endl;
-cout << "           $            $         " <<endl;
-cout << "           $           $           " << endl;
-cout << "           $             $         " << endl;
-cout << "            $              $       " << endl;
-cout << "             $               $     " << endl;
-cout << "               $           $       " << endl;
-cout << "                  $  $  $          " << endl;
+main()
+{
 
+ float kilogram;
+ 
+kilogram=2.22;
+ 
+float input;
+ 
+float pound;
+
+ cout << " Enter Kilograms: " ;
+
+ cin >> input;
+
+ pound=kilogram*input;
+ 
+cout << " In pounds : " << pound ;
 }
